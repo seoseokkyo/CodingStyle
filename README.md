@@ -127,7 +127,7 @@
   </tr>
 </table>
 
-### 2-6. UI-WireFrameSet
+### 2-7. UI-WireFrameSet
 <table>
   <tr>
     <td style="width: 30%; vertical-align: top;">
@@ -137,6 +137,65 @@
       <ul>
         <li>게임업계에서는 해상도가 사용자마다 다르므로 사용할 수 없는 방법이지만 장비등 고정환경에서 아트와 협업을 할 때는 필수적인 좌표 명시형 디자인 방식입니다.</li>
         <li>MFC환경에서는 그냥 임의로 배치하는것보다 익숙하기도 하고 결과물이 임의 배치보다 이쁘게 나오는것 같아 번거롭지만 명시하는 편입니다.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2-8. UI-OnBnClickedButtonCalc
+<table>
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      <img src="./images/common/OnBnClickedButtonCalc1.jpg" alt="OnBnClickedButtonCalc1" style="width: 100%;">
+      <img src="./images/common/OnBnClickedButtonCalc2.jpg" alt="OnBnClickedButtonCalc1" style="width: 100%;">
+    </td>
+    <td style="width: 70%; vertical-align: top; text-align: left;">
+      <ul>
+        <li>프로그램에서 Calc버튼을 누르면 동작되는 함수입니다.</li>
+        <li>만들어놓은 알파센타우리 툴이 작동하여 필요한 데이터들을 만들고 UI에 표현해주는 기능입니다.</li>
+        <li>EXPECTANCY관련기능들은 프로그램 1차 제작 완료 후 추가된 코드들이며 기존 코드로도 같은 결과는 나오지만 속도가 부족하여 테스트케이스를 완수하지 못하는걸 확인 후 1차 제작 시점에서 같은 결과를 뽑아내되 공식을 유추해낸 뒤 기존값과 비교를 위해 추가하였습니다.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2-9. UI-OnEnUpdateEditEndPos
+<table>
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      <img src="./images/common/OnEnUpdateEditEndPos.jpg" alt="OnEnUpdateEditEndPos" style="width: 100%;">
+    </td>
+    <td style="width: 70%; vertical-align: top; text-align: left;">
+      <ul>
+        <li>EndPos텍스트에디터의 값이 변경되면 자동으로 실행되는 함수이며 OnBnClickedButtonCalc를 호출합니다.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2-10. UI-OnBnClickedButtonDistDown
+<table>
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      <img src="./images/common/OnBnClickedButtonDistDown.jpg" alt="OnBnClickedButtonDistDown" style="width: 100%;">
+    </td>
+    <td style="width: 70%; vertical-align: top; text-align: left;">
+      <ul>
+        <li>테스트를 원활하게 진행하기 위해 만든 EndPos의 값을 1 감소시키는 버튼입니다.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2-10. UI-OnBnClickedButtonDistUp
+<table>
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      <img src="./images/common/OnBnClickedButtonDistUp.jpg" alt="OnBnClickedButtonDistUp" style="width: 100%;">
+    </td>
+    <td style="width: 70%; vertical-align: top; text-align: left;">
+      <ul>
+        <li>테스트를 원활하게 진행하기 위해 만든 EndPos의 값을 1 증가시키는 버튼입니다.</li>
       </ul>
     </td>
   </tr>
