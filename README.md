@@ -39,6 +39,7 @@
 <br>
 
 ## 2. 코드 설명
+우선 해당 문제 풀이를 위한 계산툴 코드에 대한 설명 및 구성한 UI단에서의 코드 설명순으로 진행하겠습니다.
 
 ### 2-1. AlphaCentauri-Constructor_Destructor
 <table>
@@ -120,6 +121,22 @@
     <td style="width: 70%; vertical-align: top; text-align: left;">
       <ul>
         <li>많은 함수 호출 및 이름과 맞지않는 Run 및 Set동작등이 포함되어있지만 기능적으로는 기본적 계산과 그 이후 계산을 위한 뼈대 작성 및 마무리 계산의 전처리, 후처리 기능을 하고있는 함수</li>
+        <li>유지보수가 필요한 프로젝트였을 경우 리팩토링을 진행하여야 하는 코드</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2-6. UI-WireFrameSet
+<table>
+  <tr>
+    <td style="width: 30%; vertical-align: top;">
+      <img src="./images/common/UI_WireFrameSet.jpg" alt="UI_WireFrameSet" style="width: 100%;">
+    </td>
+    <td style="width: 70%; vertical-align: top; text-align: left;">
+      <ul>
+        <li>게임업계에서는 해상도가 사용자마다 다르므로 사용할 수 없는 방법이지만 장비등 고정환경에서 아트와 협업을 할 때는 필수적인 좌표 명시형 디자인 방식입니다.</li>
+        <li>MFC환경에서는 그냥 임의로 배치하는것보다 익숙하기도 하고 결과물이 임의 배치보다 이쁘게 나오는것 같아 번거롭지만 명시하는 편입니다.</li>
       </ul>
     </td>
   </tr>
