@@ -1,4 +1,4 @@
-# 프로젝트 이름
+# 코딩 스타일 견본[Fly me to the Alpha Centauri]
 
 <p align="center">
   <br>
@@ -24,7 +24,7 @@
       <h3>프로젝트 개요/동기</h3>
       <ul>
         <li>자주 사용하는 코딩 스타일 견본을 위한 깃허브 프로젝트입니다.</li>
-        <li>코딩테스트 사이트인 백준의 https://www.acmicpc.net/problem/1011를 해결하면서 작업한 프로그램을 견본으로 사용했습니다.</li>
+        <li>코딩테스트 사이트인 백준의 [https://www.acmicpc.net/problem/1011]를 해결하면서 작업한 프로그램을 견본으로 사용했습니다.</li>
       </ul>
     </td>
   </tr>
@@ -32,9 +32,9 @@
 
 ## 기술 스택
 
-|	GitHub	|UnrealEngine|	Blender		|
-| :------: 	| 	:------: |	:------: 	|
-| ![github]	| 	![ue]	 |		![bd]	|
+|	C++	    |   MFC   |
+|:------: |:------: |
+|![c++]   | ![mfc]  |
 
 <br>
 
@@ -92,3 +92,5 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 [github]: /images/stack/GithubDesktop.svg
 [ue]: /images/stack/UnrealEngine.svg
 [bd]: /images/stack/Blender.svg
+[c++]: /images/stack/C++.svg
+[mfc]: /images/stack/Microsoft_Foundation_Class.svg
