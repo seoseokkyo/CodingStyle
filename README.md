@@ -2,7 +2,8 @@
 
 <p align="center">
   <br>
-  <img src="./images/common/Thumbnail.jpg">
+  <img src="./images/common/SolvedTarget_1.jpg">
+  <img src="./images/common/SolvedTarget_2.jpg">
   <br>
 </p>
 
@@ -17,12 +18,13 @@
 <table>
   <tr>
     <td style="width: 30%; vertical-align: top;">
-      <img src="./images/common/EscapeSimulatorImage.jpg" alt="Escape Simulator Thumbnail" style="width: 100%;">
+      <img src="./images/common/ProgramData.jpg" alt="" style="width: 100%;">
     </td>
     <td style="width: 70%; vertical-align: top; text-align: left;">
       <h3>프로젝트 개요/동기</h3>
       <ul>
-        <li></li>
+        <li>자주 사용하는 코딩 스타일 견본을 위한 깃허브 프로젝트입니다.</li>
+        <li>코딩테스트 사이트인 백준의 https://www.acmicpc.net/problem/1011를 해결하면서 작업한 프로그램을 견본으로 사용했습니다.</li>
       </ul>
     </td>
   </tr>
